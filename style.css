@@ -13,7 +13,7 @@ body{
 	margin: auto;
   }
 a:link{
-	color: #4659ed;
+	color: #054282;
 	text-decoration:none;
 }
 a:hover{
@@ -282,7 +282,7 @@ img{
 	font-size: 14px;
 	line-height: 30px;
 	font-family: times, serif;  font-style:italic;
-	text-shadow: 4px 4px 15px rgb(120 112 236);
+	text-shadow: 4px 4px 15px #7870ec;
 }
 
 .carousel_2{
@@ -515,7 +515,7 @@ img{
 .box_main {
     width: 100%;
     float: left;
-    background-color: eaebf5;
+    background-color: #eaebf5;
 	border-radius: 15px;
     padding: 0px 10px 0px 10px;
 	height:300px ;
