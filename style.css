@@ -37,10 +37,10 @@ a{
 		font-size: 22px;
 	}
 	h5{
-		font-size: 20px;
+		font-size: 19px;
 	  }
 	h6{
-		font-size: 20px;
+		font-size: 17px;
 	}
 } 
 @media (max-width:700px) { 
@@ -89,8 +89,8 @@ h4{
 h5{
 	color:#2c4770; 
 	margin: 0px;
-	line-height: 25px;
-	font-weight: 540;
+	line-height: 30px;
+	font-weight: 400;
   }
 h6{
 	padding-bottom: 7px;
@@ -146,27 +146,40 @@ img{
 	border-radius: 40.5px;
 	background-color: #ffffff;
 }
-.xx{
-	background:url(img/main/首圖phone.png) ;
-	aspect-ratio:5/ 4;
-	
-	object-fit: cover;
-	background-size: contain;
-			
-	background-repeat:no-repeat ;
-	background-size: cover; /* 让背景图片填充整个元素 */
-  	background-position: center;
-}
-.zz{
+
+/* .zz{
 	display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
 	padding-left: 30px;
-}
+} */
 /* -----------icon END---------*/
 /* -------------------about_me----------------- */
-
+@media (min-width:1240px){
+	.about p,.about a{
+		letter-spacing: 2px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+	.about a{
+		letter-spacing: 2px;
+		font-size: 15px;
+		line-height: 30px;
+	}
+}
+@media (min-width:600px) and (max-width:1240px){
+	.about p{
+		letter-spacing: 2px;
+		font-size: 1.6vw;
+		line-height: 3vw;
+	}
+	.about a{
+		letter-spacing: 2px;
+		font-size: 1.4vw;
+		line-height: 2.8vw;
+	}
+}
 @media (min-width:600px) {	/* 大 */
 	.about_me{
 		background: url(img/main/首圖.png);
@@ -178,16 +191,42 @@ img{
 		max-width: 700px;
 		margin: auto;
 	}
+	.about{
+		border: solid;
+		height: 100%;
+		padding-top: 17%;
+		padding-left: 7%;
+		font-size: 19px;
+	}
 } 
 @media (max-width:600px) {  /* 小 */
 	.about_me{
-		background: #FDFDFD;
-		aspect-ratio: 19/10;
-		background-size: 100% 100%;
+		background:url(img/main/首圖phone.png) ;
+		aspect-ratio:5/ 4;
 		object-fit: cover;
+		background-repeat:no-repeat ;
+		background-size: cover; /* 让背景图片填充整个元素 */
+		background-position: center;
 	}
-
+	.about{
+		border: solid;
+		height: 100%;
+		padding-top: 24%;
+		padding-left: 12%;
+	}
+	.about p{
+		letter-spacing: 2px;
+		font-size: 3vw;
+		line-height:5.4vw;
+	}
+	.about a{
+		letter-spacing: 2px;
+		font-size: 2.7vw;
+		line-height:1vw;
+	}
 }
+
+
 .header_img{
 	width: 300px;
 	margin: 10px;
@@ -282,7 +321,7 @@ img{
 	font-size: 14px;
 	line-height: 30px;
 	font-family: times, serif;  font-style:italic;
-	text-shadow: 4px 4px 15px #7870ec;
+	text-shadow: 4px 4px 15px #266ab4;
 }
 
 .carousel_2{
@@ -299,15 +338,17 @@ img{
 	font-size: 15px;
 }
 .title_2{
-	color: #624198;
+	color: #415198;
 	font-size: 15px;
+	font-weight: 500;
+	line-height: 25px;
 }
 .title_3{
 	color: #2e2f35;
 	font-size: 17px;
 	font-weight: 500;
 	letter-spacing: 7px;
-	text-shadow: 4px 4px 15px rgb(69 57 49);
+	text-shadow: 4px 4px 15px #4854bf;
 }
 .text_1{
 	font-size: 10px;
@@ -585,7 +626,7 @@ img{
 	height: 320px; 
 	max-width: 700px;
 	border-radius: 20px;
-	background: linear-gradient(45deg,#ffffff, #4d5acf);;
+	background: linear-gradient(45deg,#ffffff, #85b7dd);;
 }
 .Memoirs_block{
 	text-align: center;
