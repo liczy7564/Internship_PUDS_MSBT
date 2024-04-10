@@ -201,19 +201,19 @@ img{
 @media (max-width:600px) {  /* 小 */
 	.about_me{
 		background:url(img/main/首圖phone.png) ;
-		aspect-ratio:5/ 4;
+		aspect-ratio:15/ 14;
 		object-fit: cover;
 		background-repeat:no-repeat ;
-		background-size: cover; /* 让背景图片填充整个元素 */
+		background-size: cover; 
 		background-position: center;
 	}
 	.about{
 		height: 100%;
-		padding-top: 24%;
-		padding-left: 12%;
+		padding-top: 32%;
+		padding-left: 15%;
 	}
 	.about p{
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 		font-size: 3vw;
 		line-height:5.4vw;
 	}
@@ -259,7 +259,7 @@ img{
 	color: #ffffff;
 }
 .Main_options_row :hover{
-	color: #babac3
+	color: #c4c4e3;
 }
 /* 次選 */
 .Secondary{
@@ -530,6 +530,9 @@ img{
     position: relative;
 	margin-bottom: -20px;
 }
+.container_Certifications p{
+	font-size: 13px;
+}
 .about_Skill_5{
 	float:left; 
 	width: 54%;
@@ -620,7 +623,7 @@ img{
 
 /*---------------- 實習心得---------------- */
 .Internship_experience_more{
-	color: #7d5959;
+	color: #596c7e;
 	font-weight: 600;
 }
 .Internship_experience_else{
